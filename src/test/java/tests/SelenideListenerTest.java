@@ -12,7 +12,7 @@ import static org.openqa.selenium.By.linkText;
 
 public class SelenideListenerTest {
     @Test
-    public void IssueTest() {
+    public void issueTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com");

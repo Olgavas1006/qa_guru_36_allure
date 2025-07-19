@@ -16,7 +16,7 @@ public class StepsTest {
     private static final int ISSUE = 1;
 
     @Test
-    public void LambdaStepTest () {
+    public void lambdaStepTest () {
 
        SelenideLogger.addListener("allure", new AllureSelenide());
 
